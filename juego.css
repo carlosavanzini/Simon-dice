@@ -1,12 +1,14 @@
 body {
     margin: 0;
-    background-image: url("/1_5o1TMtf7LHauaRrUNdNz8g.jpeg") ;
+    /*background-image: url("/1_5o1TMtf7LHauaRrUNdNz8g.jpeg") ;*/
     display: flex;
     align-items: center;
     height: 100vh;
   }
 
   .gameboard {
+    position: absolute;
+    margin-left:5px;
     max-width: 10%;
     height: 100vh;
     width: 100vh;
